@@ -8,7 +8,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="450.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.DomainStageController">
     <children>
-        <TableView AnchorPane.topAnchor="15" AnchorPane.bottomAnchor="15" AnchorPane.leftAnchor="15" AnchorPane.rightAnchor="15" fx:id="table" >
+        <TableView AnchorPane.topAnchor="15" AnchorPane.bottomAnchor="40" AnchorPane.leftAnchor="15" AnchorPane.rightAnchor="15" fx:id="table" >
             <columns>
                 <TableColumn text="Идентификатор" fx:id="idColumn" />
                 <TableColumn text="Название" fx:id="webnameColumn" />
@@ -17,5 +17,6 @@
                 <TableColumn text="Страна рег." fx:id="countryregColumn" />
             </columns>
         </TableView>
+        <Button fx:id="styleswitch" prefHeight="25.0" prefWidth="149.0" text="Switch table style" onAction="#handleButtonAction" />
     </children>
 </AnchorPane>

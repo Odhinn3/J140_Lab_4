@@ -1,4 +1,3 @@
-
 package ui;
 
 import java.io.IOException;
@@ -39,7 +38,7 @@ public class PersonStageController implements Initializable{
     @FXML
     private TableColumn<PersonTable, Integer> domColumn;
     
-    public static Person person;
+    public Person person;
     private Repository repo;
 
     public PersonStageController() {
@@ -82,5 +81,4 @@ public class PersonStageController implements Initializable{
             }
         });
     }
-    
 }

@@ -1,0 +1,29 @@
+
+.column-header {
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 9pt;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+
+}
+
+.table-view {
+    -fx-base: #EA8440;
+    -fx-control-inner-background: #F5C67F;
+    -fx-font-size: 8pt;
+    -fx-font-family: "Tahoma";
+    -fx-text-fill: #70100D;
+}
+
+Button {
+    -fx-background-color: #C1661C;
+}
+
+Button:hover {
+    -fx-background-color: #893F02;
+}
+
+
+AnchorPane {
+    -fx-background-color:#843E10;
+}

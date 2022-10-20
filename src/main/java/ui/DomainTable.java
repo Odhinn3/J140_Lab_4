@@ -1,10 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ui;
 
-import model.Person;
 import java.time.LocalDate;
 
 /**
@@ -76,5 +71,4 @@ public class DomainTable {
     public void setCountryreg(String countryreg) {
         this.countryreg = countryreg;
     }
- 
 }

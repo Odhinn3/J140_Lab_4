@@ -87,9 +87,5 @@ public class Domain {
                 ", domainname=" + domainname + ", ip=" + ip + ", datereg="
                 + datereg + ", countryreg=" + countryreg + ", person="
                 + person + '}';
-    }
-    
-    
-    
-    
+    } 
 }

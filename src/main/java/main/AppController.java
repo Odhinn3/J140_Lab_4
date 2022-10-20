@@ -1,7 +1,6 @@
 
 package main;
 
-import static java.lang.Thread.sleep;
 import java.util.Iterator;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -65,6 +64,5 @@ public class AppController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-    }
-    
+    }  
 }

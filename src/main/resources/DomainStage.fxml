@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="170.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.DomainStageController">
+    <children>
+      <VBox alignment="CENTER" prefHeight="140.0" prefWidth="406.0">
+         <children>
+              <TableView fx:id="table" prefHeight="136.0" prefWidth="406.0">
+                  <columns>
+                      <TableColumn fx:id="idColumn" text="Идентификатор" />
+                      <TableColumn fx:id="webnameColumn" text="Название" />
+                      <TableColumn fx:id="ipColumn" text="Домен" />
+                      <TableColumn fx:id="dateregColumn" text="Дата рег." />
+                      <TableColumn fx:id="countryregColumn" text="Страна рег." />
+                  </columns>
+              </TableView>
+         </children>
+      </VBox>
+        <Button fx:id="styleswitch" layoutY="140.0" onAction="#styleChangeAction" prefHeight="25.0" prefWidth="149.0" text="Switch table style" />
+    </children>
+</AnchorPane>

@@ -20,8 +20,10 @@ public class PersonStage extends Stage{
     }
 
     public void init() throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("PersonStage.fxml"));
-        Scene scene = new Scene(root);    
+        Parent root = FXMLLoader.load(getClass().getResource("/PersonStage.fxml"));
+        Scene scene = new Scene(root);  
+        String style = getClass().getResource("/style1.css").toExternalForm();
+        scene.getStylesheets().add(style);
         setTitle("Persons");
         setScene(scene);
         show();   

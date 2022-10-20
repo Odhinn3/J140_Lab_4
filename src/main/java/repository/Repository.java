@@ -1,4 +1,5 @@
 package repository;
+
 import model.Domain;
 import model.Person;
 import model.User;
