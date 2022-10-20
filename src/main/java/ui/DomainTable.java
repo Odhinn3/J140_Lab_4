@@ -1,7 +1,6 @@
 package ui;
 
 import java.time.LocalDate;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>

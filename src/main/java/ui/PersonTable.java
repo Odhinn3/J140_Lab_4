@@ -1,5 +1,4 @@
 package ui;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>
