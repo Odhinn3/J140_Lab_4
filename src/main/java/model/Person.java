@@ -1,5 +1,4 @@
 package model;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>

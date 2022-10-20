@@ -6,7 +6,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import javafx.fxml.*;
 import javafx.scene.Parent;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>

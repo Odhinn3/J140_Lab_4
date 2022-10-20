@@ -4,7 +4,6 @@ import model.Domain;
 import model.Person;
 import model.User;
 import java.util.List;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>

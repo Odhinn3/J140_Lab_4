@@ -17,7 +17,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import model.Domain;
 import model.Person;
 import repository.Repository;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>
@@ -42,7 +41,6 @@ public class DomainStageController implements Initializable{
     private Repository repo;
     private boolean switchcss = true;
 
- 
     public DomainStageController() {
         repo = new Repository();
     }

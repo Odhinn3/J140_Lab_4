@@ -17,7 +17,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>

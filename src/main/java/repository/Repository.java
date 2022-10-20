@@ -7,7 +7,6 @@ import main.ApplicationProperties;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>

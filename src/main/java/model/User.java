@@ -1,7 +1,6 @@
 package model;
 
 import java.util.Objects;
-
 /**
  *
  * @author A.Konnov <github.com/Odhinn3>
